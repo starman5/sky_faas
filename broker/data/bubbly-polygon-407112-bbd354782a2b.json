@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "bubbly-polygon-407112",
+  "private_key_id": "bbd354782a2bbc33117df4745414f250119f1a6d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDa4/9+wUPx9OLW\ncURrx4RNs9zDgFgjUdlp2BFpUVUtitLIG2E8LKedgq0OHr7klf9jiFrvm7n0yDzn\n1wSaNNO9CvHwPQ8nU67LZipA7Z3JeIeevExhiB1fTKeK6DBfFcaAfmF1+s2F+3ca\nwwDKkgPQJvqDBPUONcyEx1+1X0DnUV9MjiGs7diUHz64U/Xhep3N7zgded6uBTML\nBDcN5Y1YA4S8fqelrbZdT7mwSptRnXgzBPWD9iCrrJq5ybv8i2t1USKib6MS3Xff\n99of3Z44hVmujc3tAHdPXpkRUfJ2c7nBM7oPIW2Nfy8FtTDk4ocFG/0l/9NHX6qL\nMol14WcNAgMBAAECggEALxIhHxO2BgncnvNQHKJU3fXMB2Gp8nx3NcbwZZbHK6pD\nDiOvKwbKS7mud88eS19DQpbvwT+ag1xtFokbVQL/tpMsOHaU8+bPu68+bmR6zjjE\nZ1sETOP9twDvtZQdVNFEtNyYnkufF00ejYt6N9WjCsfbDsJJ5XKlxrbuKr1vYl6s\nP6qYl1ZfR/3NuPNDCtSsR9h4KQfJFhDXawKWZQd8uW5d2cZdSTM9MoK8s8Z6qlv1\nchGbiie6R75frjOmwkCLz1BRBQzxjZzn9k98n+l5iMPPa75SzsOO9GKd0yBnPVRZ\n/eAqCg9AFBXQZDLtnAOA/pTPokVNy2CfprUF1sZpaQKBgQDvahMtPGRFvodGvllD\nvViUIlF9yob/C0rgJmYT4k8YE7gRxbDVCYrK8FzYpyIfgWg/hKGksd2tlTCp4Iqh\nGhaShflutCckOlTwyEKltYed6j7F+yMrsmx1uGVPquEjeZOZ6RpvojXNaw34L9VH\nwXVVXXyoBaZ7ZzGosL88DXK05QKBgQDqDfE1Ad+/2Vj/K22xPFszPEetSCDJjyNz\n0ucIvjYDLPXiMXVh0Jv69NhDjCGvw0gMU7VsPqEhlnhRfh8mQek7cdzoZcDUkr7E\nJj69eX9Ek/xTRQQXyOfeZ9uUPAIdelZrvcZ4X6VUf+bV9CLE+l9Iv+qtB00Mkg8s\nDr5Ut+cvCQKBgQCuSV0ueCFS+HGIGXfoLUX3iMgkN7RwpGrcpHd5EC2eDHTaUzz4\nyVqFg9dDTOA1aUJXwxjdSTJkdBAaCsFAqDo4bll3sqQv5lsBcfe6pFzWo7kQ7VLc\nM6ZrSFJQXchJx+6gg6ZgEAj0wnNH8qJj+zyMaWMe+gYJHcVz1T9R20Re1QKBgQC6\nTkTNQ+OeK91aqHAVX4zc+MO5XCu1JXo77Qo4fGg0GOrUlTfxl4NBvPoUsovyA4jr\nPwqv0h6ixMqbW8BhzJ9h0R3d43kd/H1bV3Ijkn3K0d1NTyeV4zcmYxd3JFkuq730\n30gHc2MAIxtU/ZNbpkyIdTPRbXlYYz8ue8HnX8fnOQKBgEmNW67EWcLYtxWxMQBj\nc3z0fe2YVLpzJo1pUwkXawQy7iz6/BxSfpPZxw0tDdyLpWjlGRqoeG0UdPKhh4/m\npYvsU1yejUDQSkru/AacrNQTVEqa/w9LtzFJMIx0liSJp5UBQwSJlRaGY1Ej/jjV\nVxyaM4YPJUguOgRA51pZ0Z7d\n-----END PRIVATE KEY-----\n",
+  "client_email": "broker@bubbly-polygon-407112.iam.gserviceaccount.com",
+  "client_id": "113677945910448108828",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/broker%40bubbly-polygon-407112.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
