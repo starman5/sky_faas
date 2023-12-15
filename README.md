@@ -1,1 +1,10 @@
-# sky_faas
+# SkyFaaS
+
+## Overview
+SkyFaaS is a system that dynamically decides what the cheapest environment is to run a FaaS serverless function, adopting the principles of Sky Computing.  SkyPilot, the main current Sky Computing system, is designed for the IaaS paradigm - it sets up and tears down VMs in order to run the client's jobs.  SkyFaaS, unlike SkyPilot, is specifically designed for serverless functions, which have the benefit of fine-grained pricing and resource usage.  SkyFaaS handles all of the gory cloud-specific setup and invocation details on behalf of the user, and it runs the function on the optimal cloud environment (optimizing for price).
+
+## How it Works
+Clients send information to SkyFaaS, which SkyFaaS uses to make cloud-specific calls to AWS and Google Cloud.  If the client wants to create a serverless function, the client must send over the necessary files (ie a .py file, a requirements.txt file, a Dockerfile).  SkyFaaS will build the container image if applicable, and create the serverless function on BOTH cloud providers.  When the client invokes the serverless function, the client once again does not need to make any cloud specific calls.  The client tells SkyFaaS to INVOKE_FUNCTION, and SkyFaaS will perform all necessary cloud-specific details.  For the first few invocations, SkyFaaS will invoke functions on BOTH cloud providers and monitor the output logs to update its internal metadata about the function's execution.  Eventually, SkyFaaS will use this metadata to determine which provider is cheaper for this specific function.  At that point, all subsequent invocations will go towards the cheaper cloud provider.
+
+## Files
+SkyFaaS/broker/src contains skyfaas.py, which is the main SkyFaaS logic, and skyclient.py, which is an example client program.  All communication is on local host, for the sake of simplicity of demonstration.  Example files that the client might send over are in aws_send and gcloud_send.  To use the client program but with different files, simply change what is in those two directories.  SkyFaaS/broker/inference contains files to perform machine learning inference on serveless functions.
