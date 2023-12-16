@@ -16,15 +16,15 @@ from google.oauth2 import service_account
 import re
 
 # AWS Lambda and ECR configurations
-aws_access_key = "AKIAZKDKGJWWOUZBFIKZ"
-aws_secret_key = "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"
+aws_access_key = "Access Key"
+aws_secret_key = "Secret Key"
 aws_region = 'us-east-1'
-aws_account_id = 640172838316
+aws_account_id = 55555
 
 # Google Cloud configurations
-SERVICE_ACCOUNT_KEY_PATH = "../data/bubbly-polygon-407112-bbd354782a2b.json"
-PROJECT_ID = "bubbly-polygon-407112"
-credentials = service_account.Credentials.from_service_account_file("../data/bubbly-polygon-407112-bbd354782a2b.json")
+SERVICE_ACCOUNT_KEY_PATH = "Path"
+PROJECT_ID = "ID"
+credentials = service_account.Credentials.from_service_account_file("path")
 
 aws_dir='aws_received'
 gcloud_dir='gcloud_received'
